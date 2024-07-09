@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 120px;
+    background-color: #8B786D;
+    padding: 0vw 5vw;
+}
+
+header a{
+    font-size: 18px;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+#sobre{
+    background-color: #B2ABF2;
+    height: 100%;
+    padding: 10px 10vw;
+}
+
+#sobre img{
+    width: 100%;
+    max-width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sobre .texto{
+    text-indent: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+#maquiagem{
+    background-color: #4C243B;
+    height: 100%;
+    padding: 10px 10vw;
+}
+
+#maquiagem img{
+    width: 100%;
+    max-width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#maquiagem .texto{
+    text-indent: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#maquiagem h1{
+    text-align: center;
+}
+
+
+
+#maquiagem a{
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+#media{
+    background-color: #54457F;
+    height: 3100%;
+    padding: 10px 10vw;
+}
+
+footer{
+    background-color: black;
+    height: 8vh;
+}
+
+.container{
+    margin: 0px;
+}
+
+
