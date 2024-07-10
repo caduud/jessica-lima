@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 120px;
+    background-color: #8B786D;
+    padding: 0vw 5vw;
+}
+
+header a{
+    font-size: 18px;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+#sobre{
+    background-color: #B2ABF2;
+    height: 100%;
+}
+
+#sobre img{
+    width: 100%;
+    max-width: 49%;
+    border-radius: 8%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    padding: 15px;
+}
+
+#sobre .texto h1, h2{
+    padding: 12px;
+    text-align: center;
+}
+
+#sobre p{
+    text-align: center;
+}
+
+#sobre .texto{
+    width: 100vw;
+    text-indent: 10px;
+    font-size: 17px;
+}
+
+.exemplo{
+    position: relative;
+}
+
+footer{
+    background-color: black;
+    height: 8vh;
+}
+
+.container{
+    margin: 0px;
+}
+
+@media (min-width:768px) and (max-width: 1400px){
+    #sobre img{
+        width: 100%;
+        max-width:70%;
+        border-radius: 8%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        padding: 15px;
+    } 
+
+    .sumir{
+        display: none;
+    }
+}
+
+
