@@ -24,21 +24,21 @@ header a{
 	margin: 12px 15px;
 }
 
-#media{
+#maquiagem{
     background-color: #B2ABF2;
     height: 100%;
 }
 
-#media .texto h1, h2{
+#maquiagem .texto h1, h2{
     padding: 12px;
     text-align: center;
 }
 
-#media p{
+#maquiagem p{
     text-align: center;
 }
 
-#media .texto{
+#maquiagem .texto{
     width: 100vw;
     text-indent: 10px;
     font-size: 17px;

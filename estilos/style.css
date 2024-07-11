@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: #8B786D;
+}
+
 header{
     height: 120px;
     background-color: #8B786D;
@@ -26,8 +30,7 @@ header a{
 }
 
 #sobre img{
-    width: 100%;
-    max-width: 50%;
+    width: 250px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
@@ -43,8 +46,6 @@ header a{
     text-align: center;
 }
 
-
-
 #maquiagem{
     background-color: #4C243B;
     height: 100%;
@@ -52,8 +53,7 @@ header a{
 }
 
 #maquiagem img{
-    width: 100%;
-    max-width: 50%;
+    width: 250px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
@@ -67,6 +67,7 @@ header a{
     text-indent: 10px;
     font-size: 17px;
     text-align: center;
+    color: #827db1;
 }
 
 #maquiagem h1{
@@ -89,8 +90,7 @@ header a{
 }
 
 #media img{
-    width: 100%;
-    max-width: 50%;
+    width: 250px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
@@ -129,11 +129,13 @@ footer h1{
     text-align: center;
     padding-top: 10px;
     margin-bottom: 16px;
+    color: #B2ABF2;
 }
 
 footer p{
     text-align: center;
     margin: 0px;
+    color: #B2ABF2;
 }
 
 footer .social{
