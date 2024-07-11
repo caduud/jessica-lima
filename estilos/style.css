@@ -23,6 +23,15 @@ header a{
 	margin: 12px 15px;
 }
 
+header ul{
+    text-align: end;
+    padding-bottom: 1rem;
+}
+
+header .nav-item{
+    display: block;
+}
+
 #sobre{
     background-color: #B2ABF2;
     height: 100%;
@@ -73,8 +82,6 @@ header a{
 #maquiagem h1{
     text-align: center;
 }
-
-
 
 #maquiagem a{
     display: inline;
@@ -145,4 +152,10 @@ footer .social{
 
 .container{
     margin: 0px;
+}
+
+@media (max-width:767px) {
+    .divisor{
+        display: none;
+    }
 }
