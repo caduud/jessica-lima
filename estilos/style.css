@@ -49,10 +49,15 @@ header a{
     transform: translate(-50%, -50%);
 }
 
+#sobre h1{
+    text-align: center;
+}
+
 #sobre .texto{
+    align-self: center;
     text-indent: 10px;
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
 }
 
 /* Configurações Maquiagem*/
@@ -77,7 +82,8 @@ header a{
 #maquiagem .texto{
     text-indent: 10px;
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
+    align-self: center;
     color: #827db1;
 }
 
@@ -112,9 +118,10 @@ header a{
 }
 
 #midia .texto{
+    align-self: center;
     text-indent: 10px;
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
 }
 
 #midia h1{
