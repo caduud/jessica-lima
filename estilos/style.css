@@ -8,7 +8,6 @@ body{
 }
 
 header{
-    height: 120px;
     background-color: #8B786D;
     padding: 0vw 5vw;
 }
@@ -21,15 +20,6 @@ header a{
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
-}
-
-header ul{
-    text-align: end;
-    padding-bottom: 1rem;
-}
-
-header .nav-item{
-    display: block;
 }
 
 #sobre{
@@ -117,8 +107,6 @@ header .nav-item{
     text-align: center;
 }
 
-
-
 #media a{
     display: inline;
     text-decoration: none;
@@ -154,8 +142,12 @@ footer .social{
     margin: 0px;
 }
 
-@media (max-width:767px) {
+@media (max-width:1000px) {
     .divisor{
         display: none;
+    }
+    #navbarNav{
+        height: 180px;
+        text-align: center;
     }
 }
