@@ -1,3 +1,5 @@
+/*Configurações gerais*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,12 @@
 body{
     background-color: #8B786D;
 }
+
+.container{
+    margin: 0px;
+}
+
+/*Configurações de menu*/
 
 header{
     height: 120px;
@@ -23,6 +31,8 @@ header a{
 	background: white;
 	margin: 12px 15px;
 }
+
+/*Configurações do main*/
 
 #media{
     background-color: #B2ABF2;
@@ -44,9 +54,7 @@ header a{
     font-size: 17px;
 }
 
-.container{
-    margin: 0px;
-}
+/*Configurações do rodapé*/
 
 footer{
     background-color: black;
@@ -69,4 +77,50 @@ footer p{
 
 footer .social{
     padding: 30px;
+}
+
+/* Configurações de media screen para telas menores de 768px de largura*/
+
+@media (max-width:768px) {
+    .divisor{
+        display: none;
+    }
+
+    #navbarNav{
+        height: 179px;
+        text-align: center;
+        width: 100%;
+    }
+
+    header a{
+        padding-left: 30px;
+    }
+
+    header button{
+        margin-right: 30px;
+    }
+
+    ul li{
+        border-bottom: 1px black solid;
+        width: 100%;
+    }
+
+    .borda{
+        border-top: 1px black solid;
+        margin-top: 10px;
+    }
+
+    .navbar{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contato{
+        margin-right: 5px;
+    }
 }

@@ -1,3 +1,5 @@
+/* Configurações gerais*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,12 @@
 body{
     background-color: #8B786D;
 }
+
+.container{
+    margin: 0px;
+}
+
+/* Configurações de menu*/
 
 header{
     background-color: #8B786D;
@@ -21,6 +29,8 @@ header a{
 	background: white;
 	margin: 12px 15px;
 }
+
+/* Configurações sobre*/
 
 #sobre{
     background-color: #B2ABF2;
@@ -44,6 +54,8 @@ header a{
     font-size: 17px;
     text-align: center;
 }
+
+/* Configurações Maquiagem*/
 
 #maquiagem{
     background-color: #4C243B;
@@ -80,13 +92,15 @@ header a{
     color: white;
 }
 
-#media{
+/* Configurações media*/
+
+#midia{
     background-color: #54457F;
     height: 3100%;
     padding: 10px 10vw;
 }
 
-#media img{
+#midia img{
     width: 250px;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -97,22 +111,24 @@ header a{
     transform: translate(-50%, -50%);
 }
 
-#media .texto{
+#midia .texto{
     text-indent: 10px;
     font-size: 17px;
     text-align: center;
 }
 
-#media h1{
+#midia h1{
     text-align: center;
 }
 
-#media a{
+#midia a{
     display: inline;
     text-decoration: none;
     font-size: 15px;
     color: white;
 }
+
+/* Configurações de rodapé*/
 
 footer{
     background-color: black;
@@ -137,17 +153,48 @@ footer .social{
     padding: 30px;
 }
 
+/* Configurações de media screen para telas menores de 768px de largura*/
 
-.container{
-    margin: 0px;
-}
-
-@media (max-width:1000px) {
+@media (max-width:768px) {
     .divisor{
         display: none;
     }
+
     #navbarNav{
-        height: 180px;
+        height: 179px;
         text-align: center;
+        width: 100%;
+    }
+
+    header a{
+        padding-left: 30px;
+    }
+
+    header button{
+        margin-right: 30px;
+    }
+
+    ul li{
+        border-bottom: 1px black solid;
+        width: 100%;
+    }
+
+    .borda{
+        border-top: 1px black solid;
+        margin-top: 10px;
+    }
+
+    .navbar{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contato{
+        margin-right: 5px;
     }
 }
